@@ -1,14 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
     margin:0;
-    padding;0;
+    padding:0;
     background-color: #FFFFFF;
-    background-color: #2D25A0;
 }
-/* display: flex;
-align-items: center;
-flex-direction:column; */
+p{
+    font-weight:0;
+}
+
 main{
     
 }
@@ -22,7 +21,8 @@ main{
     display: flex;
     justify-content: center;
     padding:70px;
-    width:1160px;
+    width:1146px;
+    margin-left:150px;
 }
 
 .right-side-images{
@@ -35,6 +35,8 @@ main{
     align-items: flex-start;
     width:485px;
     height: 230px;
+    margin-right:108px;
+ 
 }
 .left-side h1{
     font-size: 60px; 
@@ -89,4 +91,30 @@ main{
     width:330px;
     height:474px;
     box-shadow: 10px 10px 70px #e7e4e4;
+}
+/* footer area  */
+.footer-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-logo{
+    width: 483.87px;
+    height: 110px;
+}
+.social-icons .fab{
+    font-size:25px;
+    align-items: center;
+    margin-left:14px;
+    color:#969BAB;
+    background-color: #E7E7E8;
+    padding:15px;
+    border-radius: 50%;
+}
+/* copy right area style  */
+.copyright-container{
+    background-color: #FFF;
+}
+.copyright{
+    
 }
